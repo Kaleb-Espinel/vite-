@@ -115,9 +115,11 @@ export function Questions() {
           Comprobar respuestas
         </button>
         {showResults && (
-          <div  className={`mt-4 rounded-md px-3 py-1 border-1 text-xl bg-amber-100 font-bold text-center ${
-      score >= 7 ? "text-green-700" : "text-red-600"
-    }`}>
+          <div
+            className={`mt-4 rounded-md px-3 py-1 border-1 text-xl bg-amber-100 font-bold text-center ${
+              score >= 7 ? "text-green-700" : "text-red-600"
+            }`}
+          >
             Has obtenido: {score} / {dataActive.length}
           </div>
         )}

@@ -15,7 +15,7 @@ export function Questions() {
         setData(jsondata);
       })
       .catch((error) => {
-        console.error("Error al cargar la data", error);
+        console.error("Error al cargar la informacion desde el servidor", error);
       });
   }, []);
 

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./index.css";
 
+
 export function Questions() {
   const [data, setData] = useState([]);
   const [answers, setAnswers] = useState({});
